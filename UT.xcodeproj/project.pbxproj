@@ -14,6 +14,8 @@
 		94D7FAEA2518CFDF00DA21F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D7FAE92518CFDF00DA21F9 /* Assets.xcassets */; };
 		94D7FAED2518CFDF00DA21F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D7FAEB2518CFDF00DA21F9 /* LaunchScreen.storyboard */; };
 		94D7FAF82518CFDF00DA21F9 /* UTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7FAF72518CFDF00DA21F9 /* UTTests.swift */; };
+		94D7FB032518D1ED00DA21F9 /* LoanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7FB022518D1ED00DA21F9 /* LoanCalculator.swift */; };
+		94D7FB052518DBDD00DA21F9 /* CarLoanCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7FB042518DBDD00DA21F9 /* CarLoanCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		94D7FAF32518CFDF00DA21F9 /* UTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7FAF72518CFDF00DA21F9 /* UTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTTests.swift; sourceTree = "<group>"; };
 		94D7FAF92518CFDF00DA21F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D7FB022518D1ED00DA21F9 /* LoanCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCalculator.swift; sourceTree = "<group>"; };
+		94D7FB042518DBDD00DA21F9 /* CarLoanCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLoanCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				94D7FAE92518CFDF00DA21F9 /* Assets.xcassets */,
 				94D7FAEB2518CFDF00DA21F9 /* LaunchScreen.storyboard */,
 				94D7FAEE2518CFDF00DA21F9 /* Info.plist */,
+				94D7FB022518D1ED00DA21F9 /* LoanCalculator.swift */,
 			);
 			path = UT;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			children = (
 				94D7FAF72518CFDF00DA21F9 /* UTTests.swift */,
 				94D7FAF92518CFDF00DA21F9 /* Info.plist */,
+				94D7FB042518DBDD00DA21F9 /* CarLoanCalculatorTests.swift */,
 			);
 			path = UTTests;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 				94D7FAE52518CFDD00DA21F9 /* ViewController.swift in Sources */,
 				94D7FAE12518CFDD00DA21F9 /* AppDelegate.swift in Sources */,
 				94D7FAE32518CFDD00DA21F9 /* SceneDelegate.swift in Sources */,
+				94D7FB032518D1ED00DA21F9 /* LoanCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D7FB052518DBDD00DA21F9 /* CarLoanCalculatorTests.swift in Sources */,
 				94D7FAF82518CFDF00DA21F9 /* UTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
